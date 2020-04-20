@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="singolo3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="get-quote">
+            <h2 class="get-quote__title">
+                Get a Quote
+            </h2>
+            <div class="get-quote__description">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+            </div>
+            <div class="feedback-form__contact-info__wrapper">
+                <form class="feedback-form" action="/keksby-mail" method="GET">
+                    <input class="feedback-form__input" type="text" name="name" id="name" pattern="[A-Za-z ]{3,25}" placeholder="Name (Required)" required>
+                    <input class="feedback-form__input" type="email" name="email" id="email" placeholder="Email (Required)" required>
+                    <input class="feedback-form__input" type="text" name="subject" id="subject" placeholder="Subject">
+                    <textarea class="feedback-form__input textarea" name="message" id="message" placeholder="Describe your project in detail..."></textarea>
+                    <input class="button" type="submit" value="Send">
+                </form>
+                <div class="contact-info">
+                    <h3 class="contact-info__title">
+                        Contact Information
+                    </h3>
+                    <p class="contact-info__description">
+                        Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis.
+                    </p>
+                    <ul class="contacts contact-info__description">
+                        <li class="icons icon-address">Elm St. 14/05 Lost City </li>
+                        <li class="icons icon-phone"><a href="tel:035283318635">03528 331 86 35</a></li>
+                        <li class="icons icon-email"><a href="mailto:info@singolo.com">info@singolo.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copyright">
+                © Copyright 2013
+            </div>
+            <div class="social">
+                <a href="#" class="social__button social__button-facebook">facebook</a>
+                <a href="#" class="social__button social__button-google">google+</a>
+                <a href="#" class="social__button social__button-twitter">twitter</a>
+                <a href="#" class="social__button social__button-linkedin">linkedin</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
